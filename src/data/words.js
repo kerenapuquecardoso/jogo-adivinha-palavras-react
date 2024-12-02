@@ -1,0 +1,21 @@
+export const wordsList = {
+    carro: ['motor', 'portas', 'janelas', 'porta-malas', 'volante', 'freio', 'acelerador', 'retrovisor', 'farol', 'lanterna'],
+    casa: ['telhado', 'porta', 'janela', 'quarto', 'sala', 'cozinha', 'banheiro', 'escada', 'corredor', 'garagem'],
+    escola: ['professor', 'aluno', 'diretor', 'coordenador', 'sala', 'quadro', 'cadeira', 'mesa', 'lousa', 'livro'],
+    fruta: ['maçã', 'banana', 'laranja', 'uva', 'abacaxi', 'melancia', 'morango', 'pera', 'kiwi', 'manga'],
+    animal: ['cachorro', 'gato', 'papagaio', 'peixe', 'coelho', 'tartaruga', 'cobra', 'macaco', 'elefante', 'leão'],
+    cor: ['vermelho', 'azul', 'amarelo', 'verde', 'roxo', 'laranja', 'preto', 'branco', 'marrom', 'cinza'],
+    número: ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'],
+    corpo: ['cabeça', 'braço', 'perna', 'pé', 'mão', 'dedo', 'ombro', 'joelho', 'barriga', 'costas'],
+    comida: ['arroz', 'feijão', 'macarrão', 'carne', 'frango', 'peixe', 'ovo', 'batata', 'cenoura', 'alface'],
+    bebida: ['água', 'suco', 'refrigerante', 'café', 'chá', 'leite', 'cerveja', 'vinho', 'vodka', 'whisky'],
+    profissão: ['médico', 'engenheiro', 'advogado', 'professor', 'policial', 'bombeiro', 'padeiro', 'jornalista', 'músico', 'ator'],
+    esporte: ['futebol', 'vôlei', 'basquete', 'handebol', 'natação', 'ginástica', 'judô', 'atletismo', 'tênis', 'xadrez'],
+    objeto: ['mesa', 'cadeira', 'sofá', 'geladeira', 'fogão', 'televisão', 'computador', 'celular', 'relógio', 'óculos'],
+    roupa: ['camisa', 'calça', 'short', 'saia', 'vestido', 'blusa', 'sapato', 'chinelo', 'meia', 'cueca'],
+    estação: ['verão', 'inverno', 'outono', 'primavera'],
+    clima: ['sol', 'chuva', 'vento', 'neve', 'frio', 'calor', 'tempestade', 'garoa', 'geada', 'neblina'],
+    país: ['Brasil', 'Argentina', 'Estados Unidos', 'França', 'Itália', 'Alemanha', 'Espanha', 'Portugal', 'Japão', 'China'],
+    cidade: ['São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Curitiba', 'Porto Alegre', 'Salvador', 'Recife', 'Fortaleza', 'Brasília', 'Manaus'],
+
+};

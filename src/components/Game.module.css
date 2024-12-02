@@ -1,0 +1,79 @@
+.game h1{ 
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.points {
+    font-weight: bold;
+}
+
+.tip{
+    color: #fff;
+}
+
+.wordContainer{
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 5px solid #fff;
+    display: flex;
+}
+
+.letter, .blankSquare{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #fff;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #292929;
+    color: #fff;
+
+}
+
+.letterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.letterContainer input{
+   height: 50px;
+   width: 50px;
+   font-size: 2em;
+   text-align: center;
+   margin-right: 1em;
+}
+
+.button {
+    --button-accent: rgb(153, 0, 255);
+    border: none;
+    padding: 5px 20px;
+    background: var(--button-accent);
+    box-shadow: 0px 5px 0px 0px
+        color-mix(in oklab, var(--button-accent) 80%, black),
+      0px 5px 0px 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  /* If you want the button to pop up on hover as well */
+  /* .button:hover{
+      box-shadow: 0px 10px 0px 2px rgb(159, 0, 0), 0px 10px 0px 5px rgb(0, 0, 0);
+      transform: translateY(-5px);
+  } */
+  .button:active {
+    box-shadow: 0px 0px 0px 0px color-mix(in oklab, var(--button-accent), black),
+      0px 0px 0px 5px black;
+    transform: translateY(5px);
+  }
+  
